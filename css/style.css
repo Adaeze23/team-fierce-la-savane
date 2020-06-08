@@ -5,7 +5,7 @@ body, html {
 
 .navbar-nav .nav-item a {
     color: #000;
-    font: 12px
+    font: 12px;
 }
 
 .nav-adjust {
@@ -14,16 +14,39 @@ body, html {
     background-color: #f9f7f7a6; 
 }
 
+
+h5 {
+position: absolute;
+width: 617px;
+height: 44px;
+left: 412px;
+top: 485px;
+
+font-family: Gill Sans MT;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-transform: capitalize;
+
+color: #000000;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+}
 .slider-section {
     min-height: 600px;
     width: 100%;
 }
 
 .slider-caption {
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 1rem;
     height: 10%;
     width: 100%;
     background-color: #747272;
+
 }
 
 .slider-caption .c-title {
