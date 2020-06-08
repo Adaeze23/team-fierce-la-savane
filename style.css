@@ -1,0 +1,52 @@
+#intro {
+    height: 600px;
+}
+
+#about {
+    justify-self: left;
+    background-color: #000000;
+}
+
+#skills {
+    height: 500px;
+    background-color: #151515;
+}
+
+#contact {
+    height: 500px;
+    background-color: #000000;
+    justify-self: right;
+}
+
+#footer {
+    background-color: #151515;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.mt-20 {
+    margin-top: 100px;
+}
+
+.img-overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.custom-input {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: transparent !important;
+}
+
+.custom-input-button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: transparent !important;
+}
