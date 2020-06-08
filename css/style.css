@@ -1,52 +1,49 @@
-#intro {
-    height: 600px;
+body, html {
+    background-color: #F9F7F7;
+    color: #535252;
 }
 
-#about {
-    
-    background-color: #000000;
+.navbar-nav .nav-item a {
+    color: #000;
+    font: 12px
 }
 
-#skills {
-    height: 500px;
-    background-color: #151515;
+.nav-adjust {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #f9f7f7a6; 
 }
 
-#contact {
-    height: 500px;
-    background-color: #000000;
-}
-
-#footer {
-    background-color: #151515;
-}
-
-.bg-dark {
-    background-color: #000 !important;
-
-}
-
-.mt-20 {
-    margin-top: 100px;
-}
-
-.img-overlay {
-    position: relative;
-    height: 100%;
+.slider-section {
+    min-height: 600px;
     width: 100%;
-    background-color: rgba(0,0,0,0.65);
 }
 
-.custom-input {
-    border: 1px solid #999;
-    border-radius: 5px;
+.slider-caption {
     padding: 1rem;
-    background-color: transparent !important;
+    height: 10%;
+    width: 100%;
+    background-color: #747272;
 }
 
-.custom-input-button {
-    border: 1px solid #999;
-    border-radius: 5px;
-    padding: 1rem;
-    background-color: transparent !important;
+.slider-caption .c-title {
+    color: #B3B3B3;
+}
+
+.slider-caption .c-subtitle {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.slider-caption .c-badge {
+    position: relative;
+    top: 0;
+    margin-top: -25px;
+    margin-left: 30px;
+    height: 100px;
+    width: 120px;
+    background-color: #7AD4B4;
+    color: #FFF;
+    padding: 10px;
 }
