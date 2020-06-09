@@ -130,3 +130,33 @@ body, html {
   color: white;
   border-radius: 1px;
 }
+
+.caption-y {
+    display: none;
+    padding: 1rem;
+    /*width: 100%;*/
+    font-size: 10px;
+    margin-left: 48px;
+    margin-right: 48px;
+    background-color: #747272;
+}
+
+.caption-x {
+    display: initial;
+} 
+
+
+@media (max-width: 728px){
+    .caption-y {
+        display: inline-block;
+        
+    }
+
+    .caption-y button{
+        font-size: 10px;
+    }
+
+    .caption-x {
+        display: none;
+    } 
+}
