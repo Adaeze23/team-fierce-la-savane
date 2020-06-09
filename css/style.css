@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'),
+         url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body, html {
     background-color: #F9F7F7;
     color: #535252;
+    font-family: 'karlaregular'
 }
 
  header .navbar .navbar-brand {
@@ -11,6 +21,7 @@ body, html {
 .navbar-nav .nav-item a {
     color: #000;
     font: 12px;
+    font-family: ;
 }
 
 .nav-adjust {
@@ -90,7 +101,7 @@ body, html {
     font-weight: bold;
 }
 
- .btn-c-badge {
+.slider-caption .c-badge {
     position: relative;
     top: 0;
     margin-top: -25px;
@@ -100,4 +111,10 @@ body, html {
     background-color: #7AD4B4;
     color: #FFF;
     padding: 10px;
+
+}
+
+#btn-c-badge {
+    background-color: #7AD4B4;
+    border: 0;
 }
