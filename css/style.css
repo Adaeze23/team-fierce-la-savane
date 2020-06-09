@@ -118,6 +118,19 @@ body, html {
     border: 0;
 }
 
+.pagination li a{
+    color: #fff;
+    padding: 8px;
+    border : 1px;
+}
+
+.page-slide {
+  background-color: ;
+  color: white;
+  border-radius: 1px;
+}
+
+
 /*css stlye for facilities page*/
 .gallery {
   min-height: 90vh;
@@ -211,4 +224,6 @@ body, html {
   grid-row: 2/3;
   grid-column: 1/2;
 }
+
+
 
