@@ -118,3 +118,15 @@ body, html {
     background-color: #7AD4B4;
     border: 0;
 }
+
+.pagination li a{
+    color: #fff;
+    padding: 8px;
+    border : 1px;
+}
+
+.page-slide {
+  background-color: ;
+  color: white;
+  border-radius: 1px;
+}
