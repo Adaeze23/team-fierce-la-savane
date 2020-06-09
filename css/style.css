@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'karlaregular';
     src: url('karla-regular-webfont.woff2') format('woff2'),
@@ -130,6 +131,36 @@ body, html {
   border-radius: 1px;
 }
 
+.caption-y {
+    display: none;
+    padding: 1rem;
+    /*width: 100%;*/
+    font-size: 10px;
+    margin-left: 48px;
+    margin-right: 48px;
+    background-color: #747272;
+}
+
+.caption-x {
+    display: initial;
+} 
+
+
+@media (max-width: 728px){
+    .caption-y {
+        display: inline-block;
+        
+    }
+
+    .caption-y button{
+        font-size: 10px;
+    }
+
+    .caption-x {
+        display: none;
+    } 
+}
+
 /*css stlye for facilities page*/
 .gallery {
   min-height: 90vh;
@@ -224,33 +255,70 @@ body, html {
   grid-column: 1/2;
 }
 
-.caption-y {
-    display: none;
-    padding: 1rem;
-    /*width: 100%;*/
-    font-size: 10px;
-    margin-left: 48px;
-    margin-right: 48px;
-    background-color: #747272;
-}
-
-.caption-x {
-    display: initial;
-} 
-
-
-@media (max-width: 728px){
-    .caption-y {
-        display: inline-block;
+        /*styling for contact page starts from here*/
         
-    }
-
-    .caption-y button{
-        font-size: 10px;
-    }
-
-    .caption-x {
-        display: none;
-    } 
-}
-
+        .main {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .art {
+            padding-right: 40px;
+        }
+        
+        .art img {
+            width: 400px;
+            height: 500px;
+            background-color: antiquewhite
+        }
+        
+        .form-details img {
+            width: 300px;
+            height: 150px;
+        }
+        
+        .inlineList {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex start;
+            list-style: none;
+            white-space: nowrap;
+            font-size: 11px;
+        }
+        
+        input,
+        textarea {
+            display: inline-block;
+            margin: 0.5rem;
+            border: 0;
+            width: 97%;
+            align-items: right;
+            border-bottom: 2px solid;
+            height: 30px;
+        }
+        
+        .form {
+            box-shadow: 2px 2px inset grey;
+            color: whitesmoke;
+            height: 30px;
+        }
+        
+        fieldset h5 {
+            text-align: center;
+            justify-content: center;
+        }
+        
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 22px;
+            background: rgb(8, 187, 157);
+            font-size: 10px;
+            margin: 30px auto;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 30px;
+        }
