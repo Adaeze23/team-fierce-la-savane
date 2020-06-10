@@ -1,20 +1,18 @@
-<<<<<<< HEAD
 @font-face {
     font-family: 'karlaregular';
-    src: url('karla-regular-webfont.woff2') format('woff2'),
-         url('karla-regular-webfont.woff') format('woff');
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-body, html {
+body,
+html {
     background-color: #F9F7F7;
     color: #535252;
     font-family: 'karlaregular'
 }
 
- header .navbar .navbar-brand {
+header .navbar .navbar-brand {
     color: #000;
     text-shadow: 1px 2px 1px #999;
 }
@@ -28,9 +26,8 @@ body, html {
 .nav-adjust {
     margin-left: 30px;
     margin-right: 30px;
-    background-color: #f9f7f7a6; 
+    background-color: #f9f7f7a6;
 }
-
 
 .c-caption {
     position: absolute;
@@ -89,7 +86,6 @@ body, html {
     height: 85px;
     width: 100%;
     background-color: #747272;
-
 }
 
 .slider-caption .c-title {
@@ -118,17 +114,221 @@ body, html {
     background-color: #7AD4B4;
     border: 0;
 }
+/*css stlye for facilities page*/
 
-.pagination li a{
-    color: #fff;
-    padding: 8px;
-    border : 1px;
+.gallery {
+    min-height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    color: white;
+    font-size: 2rem;
 }
 
-.page-slide {
-  background-color: ;
-  color: white;
-  border-radius: 1px;
+.gallery-text-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333333;
+    padding: 4rem 2rem;
+}
+
+.gallery-text {
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    color: white;
+    padding: 0rem 1rem;
+    overflow: hidden;
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.restaurant,
+.fitness,
+.yoga,
+.conference {
+    position: relative;
+}
+
+.restaurant {
+    margin: 0 0.5rem 1rem 0;
+}
+
+.fitness {
+    margin: 0 0 1rem 1rem;
+}
+
+.yoga {
+    margin: 1rem 1rem 0 0;
+}
+
+.conference {
+    margin: 1rem 0 0 1rem;
+}
+
+.restaurant-photo {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.restaurant img {
+    width: 49%;
+    height: 100%;
+}
+
+.restaurant-text,
+.fitness-text,
+.yoga-text,
+.conference-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333333;
+    padding: 1rem 3rem;
+}
+
+.fitnes-photo {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.fitness-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yoga-photo {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+/*styling for contact page starts from here*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: auto 1.2rem;
+}
+
+h1 {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 60px;
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.art {
+    padding-right: 40px;
+}
+
+.art img {
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite
+}
+
+.form-details img {
+    width: 300px;
+    height: 150px;
+}
+
+.inlineList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex start;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+input,
+textarea {
+    display: inline-block;
+    margin: 0.5rem;
+    border: 0;
+    width: 97%;
+    align-items: right;
+    border-bottom: 2px solid;
+    height: 30px;
+}
+
+.form {
+    box-shadow: 2px 2px inset grey;
+    color: whitesmoke;
+    height: 30px;
+}
+
+fieldset h5 {
+    text-align: center;
+    justify-content: center;
+}
+
+.c-button {
+    width: 150px;
+    background: rgb(8, 187, 157);
+    font-size: 12px;
+    padding: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.contact-banner {
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    margin-top: -15px;
+}
+
+.contact-title {
+    padding-top: 1rem;
+}
+
+#row-id-2 {
+    /*border-left: 1px solid #999;
+    border-top: 1px solid #999;*/
+    box-shadow:12px 0px  0px 0px #CCC;
+    width: 600px;
+}
+
+.c-form-control {
+    border: 0;
+    background-color: transparent;
+    /*padding: 1rem;*/
+    border-bottom: 1px solid #CCC;
+}
+
+.contact-form {
+    padding: 1rem;
 }
 
 .caption-y {
@@ -160,165 +360,3 @@ body, html {
         display: none;
     } 
 }
-
-/*css stlye for facilities page*/
-.gallery {
-  min-height: 90vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  position: relative;
-  color: white;
-  font-size: 2rem;
-}
-.gallery-text-box {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #333333;
-  padding: 4rem 2rem;
-}
-.gallery-text {
-  text-transform: uppercase;
-  border: 1px solid white;
-  font-size: 1.4rem;
-  color: white;
-
-   padding: 0rem 1rem; 
-  overflow: hidden;
-}
-.gallery img {
-
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.restaurant,
-.fitness,
-.yoga,
-.conference {
-  position: relative;
-}
-.restaurant {
-  margin: 0 0.5rem 1rem 0;
-}
-.fitness {
-  margin: 0 0 1rem 1rem;
-}
-.yoga {
-  margin: 1rem 1rem 0 0;
-}
-
-.conference {
-  margin: 1rem 0 0 1rem;
-}
-.restaurant-photo {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.restaurant img {
-  width: 49%;
-  height: 100%;
-}
-
-.restaurant-text,
-.fitness-text,
-.yoga-text,
-.conference-text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #333333;
-  padding: 1rem 3rem;
-}
-
-.fitnes-photo {
-  grid-row: 1/2;
-  grid-column: 2/3;
-}
-.fitness-text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.yoga-photo {
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-
-        /*styling for contact page starts from here*/
-        
-        .main {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        }
-        
-        .art {
-            padding-right: 40px;
-        }
-        
-        .art img {
-            width: 400px;
-            height: 500px;
-            background-color: antiquewhite
-        }
-        
-        .form-details img {
-            width: 300px;
-            height: 150px;
-        }
-        
-        .inlineList {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex start;
-            list-style: none;
-            white-space: nowrap;
-            font-size: 11px;
-        }
-        
-        input,
-        textarea {
-            display: inline-block;
-            margin: 0.5rem;
-            border: 0;
-            width: 97%;
-            align-items: right;
-            border-bottom: 2px solid;
-            height: 30px;
-        }
-        
-        .form {
-            box-shadow: 2px 2px inset grey;
-            color: whitesmoke;
-            height: 30px;
-        }
-        
-        fieldset h5 {
-            text-align: center;
-            justify-content: center;
-        }
-        
-        button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100px;
-            height: 22px;
-            background: rgb(8, 187, 157);
-            font-size: 10px;
-            margin: 30px auto;
-            color: white;
-            text-transform: uppercase;
-            border-radius: 30px;
-        }
