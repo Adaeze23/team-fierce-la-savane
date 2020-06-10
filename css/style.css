@@ -345,7 +345,6 @@ fieldset h5 {
     display: initial;
 } 
 
-
 @media (max-width: 728px){
     .caption-y {
         display: inline-block;
@@ -359,4 +358,5 @@ fieldset h5 {
     .caption-x {
         display: none;
     } 
+
 }
