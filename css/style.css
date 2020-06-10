@@ -1,20 +1,18 @@
 @font-face {
     font-family: 'karlaregular';
-    src: url('karla-regular-webfont.woff2') format('woff2'),
-         url('karla-regular-webfont.woff') format('woff');
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-body, html {
+body,
+html {
     background-color: #F9F7F7;
     color: #535252;
     font-family: 'karlaregular'
 }
 
 header .navbar .navbar-brand {
-
     color: #000;
     text-shadow: 1px 2px 1px #999;
 }
@@ -88,10 +86,6 @@ header .navbar .navbar-brand {
     height: 85px;
     width: 100%;
     background-color: #747272;
-<<<<<<< HEAD
-
-=======
->>>>>>> feat/contact-page
 }
 
 .slider-caption .c-title {
@@ -120,84 +114,6 @@ header .navbar .navbar-brand {
     background-color: #7AD4B4;
     border: 0;
 }
-<<<<<<< HEAD
-
-.pagination li a{
-    color: #fff;
-    padding: 8px;
-    border : 1px;
-}
-
-.page-slide {
-  background-color: ;
-  color: white;
-  border-radius: 1px;
-}
-
-.caption-y {
-    display: none;
-    padding: 1rem;
-    /*width: 100%;*/
-    font-size: 10px;
-    margin-left: 48px;
-    margin-right: 48px;
-    background-color: #747272;
-}
-
-.caption-x {
-    display: initial;
-} 
-
-
-@media (max-width: 728px){
-    .caption-y {
-        display: inline-block;
-        
-    }
-
-    .caption-y button{
-        font-size: 10px;
-    }
-
-    .caption-x {
-        display: none;
-    } 
-}
-
-/*css stlye for facilities page*/
-.gallery {
-  min-height: 90vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  position: relative;
-  color: white;
-  font-size: 2rem;
-}
-.gallery-text-box {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #333333;
-  padding: 4rem 2rem;
-}
-.gallery-text {
-  text-transform: uppercase;
-  border: 1px solid white;
-  font-size: 1.4rem;
-  color: white;
-
-   padding: 0rem 1rem; 
-  overflow: hidden;
-}
-.gallery img {
-
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-=======
 /*css stlye for facilities page*/
 
 .gallery {
@@ -233,41 +149,12 @@ header .navbar .navbar-brand {
     height: 100%;
     width: 100%;
     object-fit: cover;
->>>>>>> feat/contact-page
 }
 
 .restaurant,
 .fitness,
 .yoga,
 .conference {
-<<<<<<< HEAD
-  position: relative;
-}
-.restaurant {
-  margin: 0 0.5rem 1rem 0;
-}
-.fitness {
-  margin: 0 0 1rem 1rem;
-}
-.yoga {
-  margin: 1rem 1rem 0 0;
-}
-
-.conference {
-  margin: 1rem 0 0 1rem;
-}
-.restaurant-photo {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.restaurant img {
-  width: 49%;
-  height: 100%;
-=======
     position: relative;
 }
 
@@ -298,7 +185,6 @@ header .navbar .navbar-brand {
 .restaurant img {
     width: 49%;
     height: 100%;
->>>>>>> feat/contact-page
 }
 
 .restaurant-text,
