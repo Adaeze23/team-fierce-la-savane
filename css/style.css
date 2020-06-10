@@ -145,7 +145,6 @@ body, html {
     display: initial;
 } 
 
-
 @media (max-width: 728px){
     .caption-y {
         display: inline-block;
@@ -159,4 +158,5 @@ body, html {
     .caption-x {
         display: none;
     } 
+
 }
