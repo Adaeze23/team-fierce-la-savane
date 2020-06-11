@@ -123,13 +123,12 @@ html {
   grid-column: 1/2;
 }
 
-@media screen and (max-width: 608px) {
-  .resturant-photo-2 {
-    display: none;
-  }
-
+@media screen and (max-width: 615px) {
   .restaurant img {
     width: 100%;
     height: 30rem;
+  }
+  .resturant-photo-2 {
+    display: none;
   }
 }
