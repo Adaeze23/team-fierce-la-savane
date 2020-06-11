@@ -280,7 +280,7 @@ textarea {
     height: 30px;
 }
 
-.form {
+/*.form {
     box-shadow: 2px 2px inset grey;
     color: whitesmoke;
     height: 30px;
@@ -289,6 +289,10 @@ textarea {
 fieldset h5 {
     text-align: center;
     justify-content: center;
+}
+*/
+.col-sm-12 .contact-title{
+    color: rgb(8, 187, 157);
 }
 
 .c-button {
@@ -316,7 +320,7 @@ fieldset h5 {
 #row-id-2 {
     /*border-left: 1px solid #999;
     border-top: 1px solid #999;*/
-    box-shadow:12px 0px  0px 0px #CCC;
+    box-shadow:0px 0px 2px 2px #CCC;
     width: 600px;
 }
 
@@ -328,5 +332,5 @@ fieldset h5 {
 }
 
 .contact-form {
-    padding: 1rem;
+    padding: 1.5rem;
 }
