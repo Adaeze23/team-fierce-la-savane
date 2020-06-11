@@ -169,9 +169,11 @@ header .navbar .navbar-brand {
 }
 
 @media (max-width: 728px){
+
     .img-responsive {
         width: 100vh;
         height: 100vh;
+
     }
 
     .page-lang {
@@ -197,14 +199,14 @@ header .navbar .navbar-brand {
     }
     .caption-y {
         display: inline-block;
-        padding-bottom: 0;
+        padding-bottom: 15px;
         padding-top: 15px;
         padding-left: 3rem!important;
         padding-right: 3rem!important;
         font-size: 12px;
         margin-left: 0px;
         margin-right: 0px;
-        height: 100vh;
+        /*height: 100vh;*/
     }
 
     .caption-y button{
