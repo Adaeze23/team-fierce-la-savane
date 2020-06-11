@@ -269,7 +269,7 @@ h1 {
     font-size: 11px;
 }
 
-input,
+/*input,
 textarea {
     display: inline-block;
     margin: 0.5rem;
@@ -278,7 +278,7 @@ textarea {
     align-items: right;
     border-bottom: 2px solid;
     height: 30px;
-}
+}*/
 
 .form {
     box-shadow: 2px 2px inset grey;
@@ -286,10 +286,10 @@ textarea {
     height: 30px;
 }
 
-fieldset h5 {
+/*fieldset h5 {
     text-align: center;
     justify-content: center;
-}
+}*/
 
 .c-button {
     width: 150px;
@@ -311,13 +311,23 @@ fieldset h5 {
 
 .contact-title {
     padding-top: 1rem;
+    padding-left: 0rem!important;
+    color: grey;
+}
+
+.p-contact-title {
+    color: rgb(8, 187, 157);
+    padding-top: 1rem
 }
 
 #row-id-2 {
     /*border-left: 1px solid #999;
     border-top: 1px solid #999;*/
-    box-shadow:12px 0px  0px 0px #CCC;
-    width: 600px;
+    box-shadow:-5px -5px 5px 0px #CCC;
+    /*width: 600px;*/
+    width: 90%;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 .c-form-control {
@@ -362,18 +372,60 @@ fieldset h5 {
     margin-top: 25px;
 }
 
+/*.contact-col {
+    padding-right: 3rem!important;
+}*/
+
+.img-contact {
+    height: 100vh;
+    width: 100%;
+}
 
 .img-responsive {
     width: auto;
     height: auto;
 }
 
+.img-con {
+   padding-left: 3rem!important; 
+}
+
+.contact-col {
+   padding-left: 1rem!important;
+   padding-right: 4rem!important;
+}
+
 @media (max-width: 728px){
+    .contact-title {
+        margin-left: 2rem!important;
+    }
+    .contact-subtitle {
+        margin-left: 2rem!important;
+    }
+
+    .c-form-control {
+        margin-left: 2rem!important;
+    }
+    .img-contact {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .img-con {
+       margin-top: -25px;
+       padding-left: 0rem!important;
+       padding-right: 0rem!important;
+    }
+
+    .contact-col {
+       padding-left: 0rem!important;
+       padding-right: 0rem!important;
+    }
+
 
     .img-responsive {
         width: 100vh;
         height: 100vh;
-
     }
 
     .page-lang {
@@ -417,4 +469,10 @@ fieldset h5 {
         display: none;
     } 
 
+    #row-id-2 {
+        /*border-left: 1px solid #999;
+        border-top: 1px solid #999;*/
+        box-shadow:12px 0px  0px 0px #CCC;
+        width: 100%;
+    }
 }
