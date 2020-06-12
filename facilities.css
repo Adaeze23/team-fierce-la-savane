@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-html {
+/*html {
   font-size: 62.5%;
-}
+}*/
 .facilities {
   min-height: 100vh;
 }
@@ -23,8 +23,8 @@ html {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #747272;
-  padding: 4rem 2rem;
+  background-color: #747272a6;
+  padding: 1rem 2rem;
 }
 /* .gallery-text {
   text-transform: uppercase;
@@ -32,7 +32,7 @@ html {
   font-size: 1.8rem;
   color: #ffffff;
 
-}*/ 
+}*/
 .reservation-btn,
 .reservation-btn:link,
 .reservation-btn:visited {
@@ -98,26 +98,40 @@ html {
 .yoga-text,
 .conference-text {
   position: absolute;
-  left: 50%;
+  /* left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   color: #545454;
-  background-color: #c4c4c4;
-  padding: 1rem 3rem;
+  background-color: #c4c4c4a6;
+  padding: 0.5rem 0.5rem;
   font-size: 2rem;
   text-align: center;
+}
+
+.restaurant-text,
+.yoga-text {
+  left: 25%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.fitness-text,
+.conference-text {
+  left: 80%;
+  top: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .fitnes-photo {
   grid-row: 1/2;
   grid-column: 2/3;
 }
-.fitness-text {
+/* .fitness-text {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 .yoga-photo {
   grid-row: 2/3;
   grid-column: 1/2;
