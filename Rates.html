@@ -5,37 +5,58 @@
     <title>Rates | La Savane</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="Rates.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <script src="js/font-awesome.min.js"></script>
 </head>
 
 <body>
     <div class="container-fluid pt-4 pb-4">
         <div class="row">
-            <header class="header">
-                <!-- the header content -->
-                <!-- navbar -->
-                <!-- banner -->
-                <div class="wrap">
-                    <div class="header-top">
-                        <div class="logo">
-                            <a href="index.html">La Savane D'Afrique</a>
+            <div class="col-md-12 page-wrapper">
+                <header id="header" class="fixed-top">
+                        <nav class="navbar navbar-expand-lg nav-adjust">
+                            <a class="navbar-brand" href="index.html">
+                                LA SAVANE D'AFRIQUE
+                             </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls ="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fa fa-align-justify"></i> 
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                         <a class="nav-link" href="contact.html">ABOUT US <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#destination">DESTINATION</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="facilities.html">GALLERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                     <a id="btn-c-badge" class="nav-link" href="Rates.html">BOOK NOW</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </header>
+                <div class="row page-lang">
+                    <div class="col-md-12">
+                        <div style="font-size: 12px;">
+                            <span>EN</span>
+                            <span>ES</span>
+                            <span>FR</span>
                         </div>
                     </div>
-                    <h4>en|es|fr</h4>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-nav-demo">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="contact.html">About us</a></li>
-                        <li><a href="#destination">Destination</a></li>
-                        <li><a href="facilities.html">Gallery</a></li>
-                        <li><a id="btn-c-badge" href="facilities.html"><i class="fa fa-fw fa-user"></i>Book Now</a></li>
-                    </ul>
-                </div>
-            </header>
+            </div>
+        </div>
+
+        <div class="row">
             <section class="section">
                 <article class="article">
                     <div class="grid">
@@ -84,6 +105,12 @@
             </section>
         </div>
     </div>
+
+      <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
