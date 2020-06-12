@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-html {
+/*html {
   font-size: 62.5%;
-}
+}*/
 .facilities {
   min-height: 100vh;
 }
