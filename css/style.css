@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+* Variables */
+:root{
+  --main-color: rgb(8, 187, 157);
+}
+
 body,
 html {
     background-color: #F9F7F7;
@@ -20,7 +25,7 @@ header .navbar .navbar-brand {
 .navbar-nav .nav-item a {
     color: #000;
     font: 12px;
-    font-family: ;
+    /* font-family: ; */
 }
 
 .nav-adjust {
@@ -72,6 +77,15 @@ header .navbar .navbar-brand {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+}
+
+.carouselid{
+    color: #fff;
+}
+
+.carouselid2{
+   background: var(--main-color);
+   border-radius: 80%;
 }
 
 .slider-section {
@@ -234,6 +248,7 @@ header .navbar .navbar-brand {
     grid-row: 2/3;
     grid-column: 1/2;
 }
+
 /*styling for contact page starts from here*/
 
 * {
@@ -414,6 +429,7 @@ textarea {
    padding-right: 4rem!important;
 }
 
+/* media queries */
 @media (max-width: 728px){
     .contact-title {
         margin-left: 2rem!important;
